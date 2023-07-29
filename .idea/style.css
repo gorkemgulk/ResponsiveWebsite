@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.6rem; /*genel sayfanın -html- içerisindeki size değiştiğinde ona oranla değişebilmesi için rem kullanıldı.*/
+    line-height: 1.5; /*satır aralarına boşluklar vermek için kullanıldı.*/
+    text-align: center;
+    background-color: coral;
+    color: white;
+}
+
+a {
+    text-decoration: none; /*alt çizgisini kaldırmak için*/
+}
+
+p {
+    padding: 1.6rem 0; /* üst-alt 1.6rem sağ-sol herhangi bir boşluk bırakmamak için*/
+}
+img{
+    width: 100%;
+    height: auto; /*kendi kendine ölçeklendirmesi için */
+}
+header {
+    height: 46rem;
+}
+
+header .hd-image {
+    position: absolute;
+    background-image: url(images/hd-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.8; /*soluklaştırmak için*/
+    z-index: -1; /*görseli bir alt zemine gönderebilmek için diğer türlü yazı da opacityden etkilenir*/
+}
+
+header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.btn {
+    display: inline-block;
+    background: chocolate;
+    color: white;
+    border: 3px solid white;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.4s; /*butonun üzerine gelindiğinde yavaş renk değiştirmesi için verilen özellik*/
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: chocolate;
+    border: 3px solid chocolate;
+}
+
+#section-a{
+    background-color: white;
+    color: chocolate;
+    padding: 3.2rem 0;
+}
+
+#section-b{
+    padding: 2rem;
+}
+
+#section-b ul{
+    list-style: none;
+}
+
+#section-b li{
+    background: white;
+    color: chocolate;
+    margin-bottom: 2rem;
+}
+
+.col-content{
+    padding: 1.5rem;
+}
+
+#section-c{
+    background-color: blanchedalmond;
+    color: chocolate;
+    padding: 5rem;
+}
+
+#section-d .box{
+    padding: 5rem 0;
+}
+#section-d .box:first-child{
+    background-color: darkslategray;
+}
+
+footer{
+    padding: 4rem;
+    background-color: darkred;
+}
+
+footer a{
+    color:mediumspringgreen;
+}
