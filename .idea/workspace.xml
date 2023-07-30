@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffb943e5-6d9c-4c9b-9c86-16b090c0100c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/images/hd-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/images/perspective-02.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/images/perspective-03.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/images/perspective-photography.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ffb943e5-6d9c-4c9b-9c86-16b090c0100c" name="Changes" comment="First Website">
+      <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +59,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690639679383</updated>
-      <workItem from="1690639682049" duration="4289000" />
+      <workItem from="1690639682049" duration="5824000" />
     </task>
+    <task id="LOCAL-00001" summary="First Website">
+      <created>1690648459060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690648459060</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Website" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Website" />
   </component>
 </project>

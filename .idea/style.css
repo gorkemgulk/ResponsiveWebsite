@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 7px;
 }
 
 body {
@@ -28,6 +28,12 @@ p {
 img{
     width: 100%;
     height: auto; /*kendi kendine ölçeklendirmesi için */
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 header {
     height: 46rem;
@@ -93,21 +99,43 @@ header h1 {
 #section-c{
     background-color: blanchedalmond;
     color: chocolate;
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 #section-d .box{
-    padding: 5rem 0;
+    padding: 2rem 0;
 }
 #section-d .box:first-child{
     background-color: darkslategray;
 }
 
 footer{
-    padding: 4rem;
+    padding: 4rem 0;
     background-color: darkred;
 }
 
 footer a{
     color:mediumspringgreen;
 }
+
+@media screen and (min-width: 800px) { /*tablet boyutu için*/
+    html{
+        font-size: 9px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {  /*pc boyutu için*/
+    html{
+        font-size: 11px;
+    }
+    #section-b li {
+        width: 28%; /*bir sayfada üç görselin yan yana gözükebilmesi için*/
+        margin: 1%;
+        display: inline-block;
+    }
+        #section-d .box{
+            width: 50%;
+            float: left;
+        }
+    }
